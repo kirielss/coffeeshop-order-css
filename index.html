@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Coffee Masters</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="image/coffee_masters_logo.png" alt="Coffee Masters Logo"> Coffee Masters
+    </header>
+    <main>
+        <section class="items box">
+            <h1 class="sec-title">ITEMS</h1>
+            <div class="items-value">
+                1x <h2 class="items-value-product">Cappuccino $3.35</h2>
+                <p class="sub">Lite foam</p> 
+            </div>
+            <div class="items-value">
+                1x <h2 class="items-value-product">Cappuccino $3.85</h2>
+                <p class="sub">Lite milk</p>
+                <p class="sub">Double espresso</p>
+            </div>
+            <div class="items-value">
+                1x <h2 class="items-value-product">Croissant $2.45</h2>
+                <p class="sub">Butter</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="name box">
+                <h1 class="sec-title">NAME</h1>
+                <div class="border-trick">
+                    Name for order
+                </div>
+                <input class="input" type="text"/>
+            </section>
+
+            <section class="payment box">
+                <h1 class="sec-title">PAYMENT</h1>
+                <div class="border-trick">
+                    Card number
+                </div>
+                <input class="input" type="text"/>
+
+                <div class="border-trick">
+                    CCV Number
+                </div>
+                <input class="input" type="text"/>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="bill">
+            <span class="bill-sum">Subtotal: </span> <span class="bill-sum">$9.65</span>
+            <span class="bill-sum">Tax: </span> <span class="bill-sum">$0.82</span>
+            <span class="bill-sum">Total: </span> <span class="bill-sum">$10.47</span>
+        </div>
+        <button class="button">Place order</button>
+    </footer>
+</body>
+</html>
